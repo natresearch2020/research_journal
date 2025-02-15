@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+header {
+    background: #00509E;
+    color: white;
+    padding: 15px;
+}
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background: #ccc;
+}
