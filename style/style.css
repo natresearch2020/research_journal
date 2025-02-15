@@ -61,6 +61,32 @@ h2 {
     color: #00509E;
 }
 
+/* Hero Section */
+.hero {
+    background-color: #00509E;
+    color: white;
+    padding: 50px;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
 /* Footer */
 footer {
     background-color: #333;
@@ -68,4 +94,3 @@ footer {
     padding: 10px;
     margin-top: 20px;
 }
-
