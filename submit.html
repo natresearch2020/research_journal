@@ -1,69 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Submit Your Article | Blossom Research Journal</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-    <!-- Header -->
-    <header>
-        <div class="logo">
-            <img src="logo.png" alt="Journal Logo">
-            <h1>Blossom Research Journal</h1>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="submission.html">Submission Guidelines</a></li>
-                <li><a href="authors.html">Guidelines for Authors</a></li>
-                <li><a href="ethics.html">Journal Ethics</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-                <li><a href="current.html">Current Issue</a></li>
-                <li><a href="archives.html">Archives</a></li>
-                <li><a href="submit.html">Submit Your Article</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <!-- Submission Form -->
-    <section>
-        <h2>Submit Your Research Paper</h2>
-        <p>Fill in the details below and upload your research paper.</p>
-
-        <form action="https://docs.google.com/forms/d/e/1FAIpQLSf3-PcVwCKJCm4WffS_kUofnH7frqZh01zBfzyBJqm1YePhJA/viewform?usp=header" method="POST" target="_blank">
-            <label for="author1">Name of the First Author:</label>
-            <input type="text" id="author1" name="entry.123456789" required>
-
-            <label for="author2">Name of the Author 2:</label>
-            <input type="text" id="author2" name="entry.987654321">
-
-            <label for="email">Corresponding Mail ID:</label>
-            <input type="email" id="email" name="entry.456789123" required>
-
-            <label for="mobile">Corresponding Mobile Number:</label>
-            <input type="tel" id="mobile" name="entry.654321987" required>
-
-            <label for="address">Corresponding Address:</label>
-            <textarea id="address" name="entry.789123456" required></textarea>
-
-            <label for="title">Title of Your Paper:</label>
-            <input type="text" id="title" name="entry.321987654" required>
-
-            <label for="file">Upload Your Paper (PDF/DOC):</label>
-            <input type="file" id="file" name="entry.147258369" required>
-
-            <button type="submit" class="btn">Submit Article</button>
-        </form>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <p>© 2025 Blossom Research Journal. All rights reserved.</p>
-    </footer>
-
-</body>
-</html>
+<link rel="stylesheet" href="styleforsubmit.css">
+<h2>Submit Your Research</h2>
+<form>
+    <label for="title">Title:</label>
+    <input type="text" id="title" required>
+    
+    <label for="author">Author:</label>
+    <input type="text" id="author" required>
+    
+    <label for="abstract">Abstract:</label>
+    <textarea id="abstract" required></textarea>
+    
+    <button type="submit">Submit</button>
+</form>

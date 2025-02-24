@@ -1,0 +1,122 @@
+/* 🌟 Full Page Background */
+body {
+    background: linear-gradient(to right, #1a1a2e, #16213e); /* Dark blue gradient for contrast */
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* 🔥 Header Section */
+header {
+    position: fixed;
+    background: rgba(255, 0, 102, 0.8); /* Semi-transparent pink */
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background:transparent;
+    align-items: center;
+    z-index: 100;
+
+}
+
+/* 🎭 Logo & Title */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    white-space: nowrap;
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+}
+
+.logo h1 {
+    font-size: 26px;
+    font-weight: bold;
+    background: linear-gradient(to right, #ff4b8a, #ff0066);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* 🚀 Navigation */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+}
+
+nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: #ff61a6;
+}
+
+/* 💎 Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 42px;
+    font-weight: bold;
+    background: linear-gradient(to right, #ff61a6, #f72585);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #f076b3;
+    margin-top: 10px;
+}
+
+/* 🎯 CTA Button */
+.btn {
+    display: inline-block;
+    background: linear-gradient(to right, #ff4b8a, #ff0066);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    background: linear-gradient(to right, #ff0066, #ff4b8a);
+}
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ff758c;
+    color: white;
+    margin-top: 50px;
+    font-weight: bold;
+    display: ruby-base-container;
+}

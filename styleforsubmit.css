@@ -1,0 +1,88 @@
+body {
+    
+        background: url('write\ bg.webp');
+        background-size: cover;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+/* 📌 Form Container */
+form {
+    max-width: 600px;
+    margin: 120px auto 50px; /* Centered form with spacing */
+    padding: 30px;
+    background: linear-gradient(to right, #1a1a2e, #16213e);/* Glassmorphic effect */
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* 🌟 Form Heading */
+h2 {
+    font-size: 34px;
+    margin-bottom: 20px;
+    background: linear-gradient(to right, #ff4b8a, #ff0066);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+/* ✨ Labels */
+form label {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ff008c;
+    margin-top: 15px;
+    text-align: left;
+}
+
+/* 🎨 Input & Textarea Styling */
+form input[type="text"],
+form textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    background: linear-gradient(to right, #1a1a2e, #16213e);
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+/* 🌟 Focus Effect */
+form input[type="text"]:focus,
+form textarea:focus {
+    outline: none;
+    border-color: #ff4b8a;
+    background:linear-gradient(to right, #1a1a2e, #16213e);
+}
+
+/* 📝 Textarea */
+form textarea {
+    height: 120px;
+    resize: none;
+}
+
+/* 🔘 Submit Button */
+form button {
+    width: 100%;
+    margin-top: 20px;
+    background: linear-gradient(to right, #ff0066, #ff4b8a);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 14px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+/* 🚀 Hover Effect */
+form button:hover {
+    transform: translateY(-3px);
+    background: linear-gradient(to right, #ff4b8a, #ff0066);
+}
